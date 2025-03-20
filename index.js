@@ -18,4 +18,5 @@ convertBtn.addEventListener('click', ()=>{
     convertedVol.textContent =`${value} liters = ${(value*literUnit).toFixed(3)} gallons | ${value} gallons = ${(value/literUnit).toFixed(3)} liters`
     convertedMass.textContent =`${value} kilos = ${(value*kgUnit).toFixed(3)} pounds | ${value} pounds = ${(value/kgUnit).toFixed(3)} kilos`
 
+    inputEl.value = ''
 })
